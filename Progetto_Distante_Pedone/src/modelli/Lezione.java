@@ -9,8 +9,19 @@ public class Lezione
 	public int IdLezione;
 	public String Aula ;
 	public String Scuola;
+	public String Indirizzo;
 	
 	
+	
+	
+	public String getIndirizzo() {
+		return Indirizzo;
+	}
+
+	public void setIndirizzo(String indirizzo) {
+		Indirizzo = indirizzo;
+	}
+
 	public String getScuola() {
 		return Scuola;
 	}
