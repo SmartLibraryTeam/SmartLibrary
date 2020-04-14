@@ -8,8 +8,17 @@ public class Lezione
 	public String Livello;
 	public int IdLezione;
 	public String Aula ;
+	public String Scuola;
 	
 	
+	public String getScuola() {
+		return Scuola;
+	}
+
+	public void setScuola(String scuola) {
+		Scuola = scuola;
+	}
+
 	public void setGiorno(String giorno)
 	{
 		
